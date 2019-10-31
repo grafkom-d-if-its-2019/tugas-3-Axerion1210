@@ -41,8 +41,8 @@
       if (event.keyCode == 88) axis[x] = !axis[x];
       if (event.keyCode == 89) axis[y] = !axis[y];
       if (event.keyCode == 90) axis[z] = !axis[z];
-      if (event.keyCode == 38) camera.z -= 0.1;
-      else if (event.keyCode == 40) camera.z += 0.1;
+      if (event.keyCode == 38) camera.y -= 0.1;
+      else if (event.keyCode == 40) camera.y += 0.1;
       if (event.keyCode == 37) camera.x -= 0.1;
       else if (event.keyCode == 39) camera.x += 0.1;
     }
