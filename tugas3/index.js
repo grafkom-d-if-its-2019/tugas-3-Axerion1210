@@ -72,6 +72,7 @@
     var modeUniformLocation;
 
     function render() {
+      gl.clearColor(0.0, 0.5, 0.3, 1.0);
       gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
       modeUniformLocation = gl.getUniformLocation(program,'mode');
 
